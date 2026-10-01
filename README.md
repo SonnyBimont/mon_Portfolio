@@ -28,5 +28,4 @@ Le site est hébergé de manière autonome sur un serveur privé virtuel (VPS) H
 Je suis actuellement à l'écoute d'opportunités en tant que Développeur Full Stack (React / Node.js).
 
 LinkedIn : Sonny Bimont
-
 Email : sonny.bimont@gmail.com

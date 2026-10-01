@@ -1,7 +1,7 @@
 import { 
-  SiReact, SiTypescript, SiTailwindcss, SiNextdotjs, 
-  SiNodedotjs, SiExpress, SiNestjs, SiPostgresql, SiMongodb, 
-  SiGit, SiDocker, SiGithubactions
+  SiReact, SiTypescript, SiVuedotjs,SiTailwindcss, SiNextdotjs, 
+  SiNodedotjs, SiExpress, SiNestjs, SiPhp, SiPostgresql, SiMongodb, 
+  SiGit, SiDocker, SiGithubactions, SiSwagger
 } from 'react-icons/si';
 import { FaServer, FaCode, FaCogs } from 'react-icons/fa';
 
@@ -13,6 +13,7 @@ export default function About() {
       skills: [
         { name: "React", icon: <SiReact />, hoverClass: "hover:border-[#61DAFB] hover:text-[#61DAFB]" },
         { name: "Next.js", icon: <SiNextdotjs />, hoverClass: "hover:border-white hover:text-white" },
+        { name: "Vue.js", icon: <SiVuedotjs />, hoverClass: "hover:border-[#4FC08D] hover:text-[#4FC08D]" },
         { name: "TypeScript", icon: <SiTypescript />, hoverClass: "hover:border-[#3178C6] hover:text-[#3178C6]" },
         { name: "Tailwind", icon: <SiTailwindcss />, hoverClass: "hover:border-[#06B6D4] hover:text-[#06B6D4]" }
       ]
@@ -24,6 +25,7 @@ export default function About() {
         { name: "Node.js", icon: <SiNodedotjs />, hoverClass: "hover:border-[#339939] hover:text-[#339939]" },
         { name: "Express", icon: <SiExpress />, hoverClass: "hover:border-gray-300 hover:text-gray-300" },
         { name: "NestJS", icon: <SiNestjs />, hoverClass: "hover:border-[#E0234E] hover:text-[#E0234E]" },
+        { name: "PHP", icon: <SiPhp />, hoverClass: "hover:border-[#777BB4] hover:text-[#777BB4]" },
         { name: "PostgreSQL", icon: <SiPostgresql />, hoverClass: "hover:border-[#4169E1] hover:text-[#4169E1]" },
         { name: "MongoDB", icon: <SiMongodb />, hoverClass: "hover:border-[#47A248] hover:text-[#47A248]" }
       ]
@@ -34,7 +36,8 @@ export default function About() {
       skills: [
         { name: "Git", icon: <SiGit />, hoverClass: "hover:border-[#F05032] hover:text-[#F05032]" },
         { name: "Docker", icon: <SiDocker />, hoverClass: "hover:border-[#2496ED] hover:text-[#2496ED]" },
-        { name: "CI/CD", icon: <SiGithubactions />, hoverClass: "hover:border-[#2088FF] hover:text-[#2088FF]" }
+        { name: "CI/CD", icon: <SiGithubactions />, hoverClass: "hover:border-[#2088FF] hover:text-[#2088FF]" },
+        { name: "Swagger", icon: <SiSwagger />, hoverClass: "hover:border-[#85EA2D] hover:text-[#85EA2D]" }
       ]
     }
   ];

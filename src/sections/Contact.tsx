@@ -15,7 +15,7 @@ export default function Contact() {
         </div>
 
         <p className="text-gray-600 text-sm">
-          © {new Date().getFullYear()} Sanka Digital. Hébergé sur VPS Hostinger (Ubuntu/Nginx).
+          © {new Date().getFullYear()} Sanka Digital. Hébergé sur VPS Hostinger (Ubuntu).
         </p>
       </div>
     </footer>

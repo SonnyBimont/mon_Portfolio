@@ -2,39 +2,46 @@ import ProjectCard from '../components/ProjectCard';
 
 const PROJECTS = [
   {
+    title: "Terre & Verres (Projet Privé)",
+    description: "Une application web complète (Full-Stack) conçue de A à Z sur-mesure pour un artisan. Elle comprend une vitrine publique dynamique présentant des produits de terroir et des événements, ainsi qu'une interface d'administration sécurisée permettant une gestion autonome du contenu.",
+    technos: ["React18", "Node.js", "PostgreSQL/Sequelize", "Zustand", "Docker", "Dbeaver", "VPS Privé" ],
+    githubUrl: "https://github.com/SonnyBimont",
+    image: "/logo_TerreEtVerres.png" 
+  },
+  {
     title: "Gardien du Temps",
     description: "Application web pour la gestion du temps de travail dans des structures multi-sites. Permet aux directeurs de pointer et suivre les horaires, établir planning prévisionnel et consulter heures travaillées sur objectif. Aussi, de leurs équipes et aux animateurs de pointer facilement leurs heures.",
     technos: ["React18", "Node.js", "PostgreSQL/Sequelize", "Zustand", "Docker", "GitHub Actions"],
     githubUrl: "https://github.com/SonnyBimont/Gardien_du_Temps_React",
-    image: "../public/logoGardienDuTemps.png" 
+    image: "/logoGardienDuTemps.png" 
   },
   {
     title: "Sport Relay",
     description: "MarketPlace C2C 'Vinted-Like' dédiée à la vente et à l'achat de matériel de sport entre particuliers avec une communication en temps réel et un tunnel de paiement sécurisé (Stripe).",
     technos: ["Vue3", "NestJS", "PostgreSQL/Sequelize", "TypeScript", "Pinia", "Tailwind CSS"],
     githubUrl: "https://github.com/SonnyBimont/SportRelay_Vue",
-    image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop" // Image temporaire
+    image: "/logo_Sport_Relay.png"
   },
     {
     title: "Gest Labo",
     description: "Application full-stack de gestion de stock pour laboratoire. Le projet permet de piloter les articles, les fournisseurs, les seuils d'alerte avec envoie de mails automatiques, les besoins de réapprovisionnement et l'historique d'utilisation, avec authentification JWT et interface Vue 3.",
     technos: ["Vue3", "NestJS", "Vite", "PostgreSQL/Sequelize", "TypeScript", "Axios"],
     githubUrl: "https://github.com/SonnyBimont/Gestion_Labo_Nest_Vue",
-    image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop" // Image temporaire
+    image: "/logo_Gest_Labo.png"
   },
   {
     title: "AMC Devis (projet privé)",
     description: "Application web complète pour la création/gestion de devis, gestion CA.",
     technos: ["React18", "Node.js", "PostgreSQL/Sequelize", "Docker", "Axios"],
     githubUrl: "https://github.com/SonnyBimont",
-    image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop" // Image temporaire
+    image: "/logo_AMC.png"
   },
   {
     title: "Gest Prez (projet privé)",
     description: "Gestion des présentoirs, affiches et publications avec suivi des réservations, QR codes publics et maintenance (préventive/curative).",
     technos: ["React18", "Node.js", "Vite", "Firebase", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/SonnyBimont/Gestion_Labo_Nest_Vue",
-    image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop" // Image temporaire
+    githubUrl: "https://github.com/SonnyBimont",
+    image: "/logo_Gest_Prez.png"
   }
 ]
 
