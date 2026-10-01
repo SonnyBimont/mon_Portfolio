@@ -5,7 +5,7 @@ const PROJECTS = [
     title: "Terre & Verres (Projet Privé)",
     description: "Une application web complète (Full-Stack) conçue de A à Z sur-mesure pour un artisan. Elle comprend une vitrine publique dynamique présentant un gestion de produits de terroir et d'événements, ainsi qu'une interface d'administration sécurisée (backoffice) permettant une gestion autonome du contenu.",
     technos: ["React18", "Node.js", "PostgreSQL/Sequelize", "Zustand", "Docker", "Dbeaver", "VPS Privé" ],
-    githubUrl: "https://terreetverres.fr",
+    Url: "https://terreetverres.fr",
     image: "/logo_TerreEtVerres.png" 
   },
   {
