@@ -2,7 +2,7 @@ interface ProjectProps {
   title: string;
   description: string;
   technos: string[];
-  githubUrl: string;
+  githubUrl?: string;
   demoUrl?: string;
   image: string;
 }
@@ -31,9 +31,11 @@ export default function ProjectCard({ title, description, technos, githubUrl, de
           ))}
         </div>
         <div className="flex gap-4 pt-4 border-t border-gray-800/50">
-          <a href={githubUrl} target="_blank" className="text-gray-400 hover:text-white text-sm font-medium transition-colors flex items-center gap-1">
-            GitHub ↗
-          </a>
+          {githubUrl && (
+            <a href={githubUrl} target="_blank" className="text-gray-400 hover:text-white text-sm font-medium transition-colors flex items-center gap-1">
+              GitHub ↗
+            </a>
+          )}
           {demoUrl && (
             <a href={demoUrl} target="_blank" className="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors flex items-center gap-1">
               Démo Live ↗
